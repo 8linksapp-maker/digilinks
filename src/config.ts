@@ -16,7 +16,7 @@ export const siteConfig = {
     linkedin: '#',
   },
   nav: [
-    { href: '/inicio', label: 'Início' },
+    { href: '/', label: 'Início' },
     { href: '/sobre', label: 'Sobre' },
     {
       label: 'Serviços',
@@ -30,7 +30,7 @@ export const siteConfig = {
     { href: '/contato', label: 'Contato' },
   ],
   footerNav: [
-    { href: '/inicio', label: 'Início' },
+    { href: '/', label: 'Início' },
     { href: '/sobre', label: 'Sobre' },
     { href: '/servicos', label: 'Serviços' },
     { href: '/projetos', label: 'Projetos' },

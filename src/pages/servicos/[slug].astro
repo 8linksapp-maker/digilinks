@@ -31,7 +31,7 @@ const s = servicos[slug ?? ''] ?? { titulo: slug, desc: 'Serviço da Digilinks.'
 ---
 
 <BaseLayout title={s.titulo} description={s.desc}>
-  <PageTitle title={s.titulo} breadcrumbs={[{ label: 'Início', href: '/inicio' }, { label: 'Serviços', href: '/servicos' }, { label: s.titulo }]} image={`/reference/${ref}/images/img-010.jpg`} />
+  <PageTitle title={s.titulo} breadcrumbs={[{ label: 'Início', href: '/' }, { label: 'Serviços', href: '/servicos' }, { label: s.titulo }]} image={`/reference/${ref}/images/img-010.jpg`} />
 
   <section class="py-16 px-4 bg-[#0f0f0f]">
     <div class="max-w-4xl mx-auto">

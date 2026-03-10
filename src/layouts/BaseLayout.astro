@@ -30,7 +30,7 @@ const fullImage = image.startsWith('http') ? image : `${siteUrl}${image.startsWi
     <meta name="generator" content={Astro.generator} />
     <title>{fullTitle}</title>
     <meta name="description" content={fullDescription} />
-    <link rel="canonical" href={`${siteUrl}${Astro.url.pathname === '/' ? '/inicio' : Astro.url.pathname}`} />
+    <link rel="canonical" href={`${siteUrl}${Astro.url.pathname || '/'}`} />
     {noIndex && <meta name="robots" content="noindex, nofollow" />}
 
     <!-- Open Graph -->

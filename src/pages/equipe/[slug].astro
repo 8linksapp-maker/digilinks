@@ -25,7 +25,7 @@ const perfil = perfis[slug ?? ''] ?? { nome: slug, cargo: '', bio: '' };
 ---
 
 <BaseLayout title={perfil.nome} description={perfil.bio}>
-  <PageTitle title={perfil.nome} breadcrumbs={[{ label: 'Início', href: '/inicio' }, { label: 'Equipe', href: '/equipe' }, { label: perfil.nome }]} image={`/reference/${ref}/images/img-003.jpg`} />
+  <PageTitle title={perfil.nome} breadcrumbs={[{ label: 'Início', href: '/' }, { label: 'Equipe', href: '/equipe' }, { label: perfil.nome }]} image={`/reference/${ref}/images/img-003.jpg`} />
 
   <section class="py-16 px-4 bg-[#0f0f0f]">
     <div class="max-w-4xl mx-auto">

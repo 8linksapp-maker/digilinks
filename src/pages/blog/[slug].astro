@@ -37,7 +37,7 @@ const post = posts[slug ?? ''] ?? { titulo: slug, data: '', conteudo: '' };
 ---
 
 <BaseLayout title={post.titulo} description={post.conteudo.slice(0, 160)}>
-  <PageTitle title={post.titulo} breadcrumbs={[{ label: 'Início', href: '/inicio' }, { label: 'Blog', href: '/blog' }, { label: post.titulo }]} image={`/reference/${ref}/images/img-004.jpg`} />
+  <PageTitle title={post.titulo} breadcrumbs={[{ label: 'Início', href: '/' }, { label: 'Blog', href: '/blog' }, { label: post.titulo }]} image={`/reference/${ref}/images/img-004.jpg`} />
 
   <article class="py-16 px-4 bg-[#0f0f0f]">
     <div class="max-w-3xl mx-auto">
