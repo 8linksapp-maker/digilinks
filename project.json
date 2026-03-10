@@ -4,5 +4,6 @@
   "slug": "digilinks",
   "createdAt": "2026-03-10T19:58:49.452Z",
   "status": "prepared",
-  "remoteUrl": "https://github.com/8linksapp-maker/digilinks.git"
+  "remoteUrl": "https://github.com/8linksapp-maker/digilinks.git",
+  "branch": "main"
 }
